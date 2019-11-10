@@ -1,0 +1,1 @@
+RltvNmbr.vba: call delete('/Users/matt/.vim_runtime/sources_non_forked/ack.vim/plugin/RltvNmbr.vim')|call delete('/Users/matt/.vim_runtime/sources_non_forked/ack.vim/plugin/RltvNmbrPlugin.vim')|call delete('/Users/matt/.vim_runtime/sources_non_forked/ack.vim/doc/RltvNmbr.txt')|call delete('/Users/matt/.vim_runtime/sources_non_forked/ack.vim/autoload/RltvNmbr.vim')
