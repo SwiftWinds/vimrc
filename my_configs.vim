@@ -32,3 +32,17 @@ nnoremap <F4> jg_
 :  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
+
+" nvim does not support ttymouse, so it is disabled if detected using nvim
+if !has('nvim')
+    set ttymouse=xterm2
+endif
+
+" checks if tnoremap exists before using it (because only nvim supports it)
+if exists(':tnoremap')
+    tnoremap <Esc> <C-\><C-n>
+endif
+
+nmap <S-Enter> O<Esc>
+nmap <C-o> o<Esc>
+
