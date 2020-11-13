@@ -43,9 +43,6 @@ if exists(':tnoremap')
     tnoremap <Esc> <C-\><C-n>
 endif
 
-nmap <S-Enter> O<Esc>
-nmap <C-o> o<Esc>
-
 " uses shared_configs.vim
 source ~/.vim_runtime/shared_configs.vim
 
