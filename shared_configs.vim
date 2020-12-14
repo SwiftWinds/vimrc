@@ -16,3 +16,6 @@ nmap <C-o> o<Esc>
 
 " gm to move to center of line
 map gm :call cursor(0, virtcol('$')/2)<CR>
+
+" allow wrapping left and right
+set whichwrap+=<,>,h,l,[,]
