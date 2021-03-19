@@ -14,8 +14,16 @@ vnoremap <A-k> :m '<-2<CR>gv=gv
 nmap <S-Enter> O<Esc>
 nmap <C-o> o<Esc>
 
+nnoremap = j^
+nnoremap <F3> kg_
+nnoremap <F4> jg_
+
 " gm to move to center of line
 map gm :call cursor(0, virtcol('$')/2)<CR>
 
 " allow wrapping left and right
 set whichwrap+=<,>,h,l,[,]
+
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
+

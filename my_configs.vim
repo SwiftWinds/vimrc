@@ -19,12 +19,7 @@ end
 let g:ctrlp_map = '<c-p>'
 nnoremap <C-f> <PageDown>
 nnoremap <C-b> <PageUp>
-nmap <S-Enter> O<Esc>
-nmap <CR> o<Esc>
-nnoremap <backspace> :noh<CR><CR>:<backspace>
-nnoremap = j^
-nnoremap <F3> kg_
-nnoremap <F4> jg_
+noremap <backspace> :noh<CR><CR>:<backspace>
 
 :set number relativenumber
 :augroup numbertoggle
